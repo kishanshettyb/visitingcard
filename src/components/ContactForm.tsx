@@ -3,10 +3,8 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
   DrawerDescription,
-  DrawerFooter,
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
@@ -17,7 +15,7 @@ export function ContactForm() {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // Generate VCF content
@@ -86,7 +84,7 @@ END:VCARD`;
                   required
                 />
               </div>
-              <Button className="w-full my-5" size="lg" type="submit">
+              <Button className="w-full mt-5 mb-10" size="lg" type="submit">
                 Save and Download Contact
               </Button>
             </form>

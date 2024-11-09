@@ -1,5 +1,4 @@
 import { ContactForm } from "@/components/ContactForm";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,7 +18,7 @@ export default function Home() {
             <div className="flex flex-col text-center justify-center items-centerw-full gap-x-2 p-2 border border-x-0 border-t-0">
               <div className="font-bold opacity-80 text-lg">Kavya Yadav</div>
               <div className="font-semibold text-md opacity-70 italic">
-                "I And You Being Together Foundation"
+                I And You Being Together Foundation
               </div>
               <div className="font-semibold opacity-60 text-xs">
                 Designation
