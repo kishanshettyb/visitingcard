@@ -52,14 +52,15 @@ END:VCARD`;
       <DrawerContent>
         <div className="mx-auto w-full max-w-sm">
           <DrawerHeader>
-            <DrawerTitle>Kavya Yadav</DrawerTitle>
+            <DrawerTitle>Kavya Shree.V</DrawerTitle>
             <DrawerDescription>Director of Operations.</DrawerDescription>
           </DrawerHeader>
           <div className="p-4 pb-0">
             <form onSubmit={handleSubmit}>
               <div>
-                <label>Name:</label>
+                <label>Name: </label>
                 <input
+                  className="p-2 border border-slate-100 rounded-md ml-2"
                   type="text"
                   value="Kavya Yadav"
                   onChange={(e) => setName(e.target.value)}
@@ -67,8 +68,9 @@ END:VCARD`;
                 />
               </div>
               <div>
-                <label>Phone:</label>
+                <label>Phone: </label>
                 <input
+                  className="p-2 border border-slate-100 rounded-md ml-2"
                   type="text"
                   value="+91 9900022506"
                   onChange={(e) => setPhone(e.target.value)}
@@ -76,8 +78,9 @@ END:VCARD`;
                 />
               </div>
               <div>
-                <label>Email:</label>
+                <label>Email: </label>
                 <input
+                  className="p-2 border border-slate-100 rounded-md ml-2"
                   type="email"
                   value="iandukavya@gmail.com"
                   onChange={(e) => setEmail(e.target.value)}
@@ -85,7 +88,7 @@ END:VCARD`;
                 />
               </div>
               <Button className="w-full mt-5 mb-10" size="lg" type="submit">
-                Save and Download Contact
+                Download and Save
               </Button>
             </form>
           </div>
