@@ -67,7 +67,7 @@ END:VCARD`;
                   required
                 />
               </div>
-              <div>
+              <div className="py-2">
                 <label>Phone: </label>
                 <input
                   className="p-2 border border-slate-100 rounded-md ml-2"
