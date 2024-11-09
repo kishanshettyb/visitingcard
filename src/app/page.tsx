@@ -8,7 +8,7 @@ export default function Home() {
       <div className="lg:basis-1/2">
         <div className="border border-slate-50 p-4 rounded-lg bg-white shadow-2xl m-10 shadow-orange-200">
           <Image
-            src="/kavya.jpg"
+            src="/kavya.png"
             width={1000}
             height={1000}
             className="rounded-lg w-full h-[300px] object-cover"
@@ -16,12 +16,12 @@ export default function Home() {
           />
           <div className="border border-slate-200 my-2 rounded-lg">
             <div className="flex flex-col text-center justify-center items-centerw-full gap-x-2 p-2 border border-x-0 border-t-0">
-              <div className="font-bold opacity-80 text-lg">Kavya Yadav</div>
+              <div className="font-bold opacity-80 text-lg">Kavya Shree.v</div>
               <div className="font-semibold text-md opacity-70 italic">
                 I And You Being Together Foundation
               </div>
               <div className="font-semibold opacity-60 text-xs">
-                Designation
+                Director of Operations
               </div>
             </div>
 
