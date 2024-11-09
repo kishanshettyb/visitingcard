@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  output: "export", // Configure Next.js for static export
   reactStrictMode: true,
 };
 
